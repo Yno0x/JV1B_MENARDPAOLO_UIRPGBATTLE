@@ -1,0 +1,247 @@
+body{
+    background-image: url(environment_forestbackground1-1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.globalposition {
+    height: 100vh;
+    display: flex;
+}
+
+.charabox{
+	display: flex;
+    flex-direction: column;
+}
+
+.ennemies{
+	display: flex;
+    flex-direction: column;
+}
+
+.ui{
+	display: flex;
+    flex-flow: column wrap;
+    align-items: stretch;
+    align-content: center;
+    justify-content: center;
+}
+
+.rori {
+	background-image: url();
+	background-clip: border-box;
+	background-repeat: no-repeat;
+	color: white;
+	height: 190px;
+  	width: 220px;
+  	text-align: center
+}
+
+.Sarah {
+	background-image: url();
+	background-clip: border-box;
+	background-repeat: no-repeat;
+	color: white;
+	height: 190px;
+  	width: 220px;
+  	text-align: center
+}
+
+.Patoche {
+	background-image: url();
+	background-clip: border-box;
+	background-repeat: no-repeat;
+	color: white;
+	height: 190px;
+  	width: 220px;
+  	text-align: center
+}
+
+.Nicky {
+	background-image: url();
+	background-clip: border-box;
+	background-repeat: no-repeat;
+	color: white;
+	height: 190px;
+  	width: 220px;
+  	text-align: center
+}
+
+#ennemy1 {
+	background-image: url();
+	background-clip: border-box;
+	background-repeat: no-repeat;
+	color: white;
+	height: 220;
+  	width: 220;
+  	text-align: center;
+}
+
+#ennemy2 {
+	background-image: url();
+	background-clip: border-box;
+	background-repeat: no-repeat;
+	color: white;
+	height: 220;
+  	width: 220;
+  	text-align: center;
+}
+
+#ennemy3 {
+	background-image: url();
+	background-clip: border-box;
+	background-repeat: no-repeat;
+	color: white;
+	height: 220;
+  	width: 220;
+  	text-align: center;
+}
+
+#ennemy4 {
+	background-image: url();
+	background-clip: border-box;
+	background-repeat: no-repeat;
+	color: white;
+	height: 220px;
+  	width: 220px;
+  	text-align: center;
+}
+
+span{
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	left: 45%
+}
+
+.barrehp:hover span{
+	visibility: visible;
+}
+
+.barrehp{
+	position:relative
+}
+
+.barrehp2:hover span{
+	visibility: visible;
+}
+
+.barrehp2{
+	position:relative
+}
+
+.barremana:hover span{
+	visibility: visible;
+}
+
+.barremana{
+	position:relative;
+	color: white;
+}
+
+.placementui{
+	display: flex;
+    flex-direction: column;
+}
+
+#Attaque{
+	border: 0;
+	line-height: 2.5;
+	padding: 0 20px;
+	font-size: 1rem;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	background-color: rgb(220, 0, 0);
+	background-image: linear-gradient(to top left,rgba(0, 0, 0, .2),rgba(0, 0, 0, .2) 30%,rgba(0, 0, 0, 0));
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+#Attaque:hover {
+	background-color: rgba(255, 0, 0, 1);
+}
+#Attaque:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+#SpecialAttack{
+	border: 0;
+	line-height: 2.5;
+	padding: 0 20px;
+	font-size: 1rem;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	background-color: rgba(220, 0, 0, 1);
+	background-image: linear-gradient(to top left,rgba(0, 0, 0, .2),rgba(0, 0, 0, .2) 30%,rgba(0, 0, 0, 0));
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+#SpecialAttack:hover {
+	background-color: rgba(255, 0, 0, 1);
+}
+#SpecialAttack:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+#Defense{
+	border: 0;
+	line-height: 2.5;
+	padding: 0 20px;
+	font-size: 1rem;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	background-color: rgba(220, 0, 0, 1);
+	background-image: linear-gradient(to top left,rgba(0, 0, 0, .2),rgba(0, 0, 0, .2) 30%,rgba(0, 0, 0, 0));
+	box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6), inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+#Defense:hover {
+	background-color: rgba(255, 0, 0, 1);
+}
+#Defense:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.placementui{
+	display: flex;
+}
+
+.al1{
+	display: flex;
+}
+
+.al2{
+	display: flex;
+}
+
+.en1{
+	display: flex;
+}
+
+.en2{
+	display: flex;
+}
+
+#pontif{
+	background-color: rgba(220, 0, 0, 0);
+}
+
+#orn{
+	background-color: rgba(220, 0, 0, 0);
+}
+
+#shadow{
+	background-color: rgba(220, 0, 0, 0);
+}
+
+#swamp{
+	background-color: rgba(220, 0, 0, 0);
+}
